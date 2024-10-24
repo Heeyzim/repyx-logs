@@ -1,0 +1,27 @@
+{
+  "name": "logs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json  && tsc-alias",
+    "lint": "eslint . --ext ts --report-unused-disable-directives --max-warnings 0 --ignore-path .eslintignore"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@citizenfx/client": "2.0.10573-1",
+    "@citizenfx/server": "2.0.10573-1",
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^22.7.9",
+    "eslint": "8.57.0",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@ptkdev/logger": "^1.8.0",
+    "axios": "^1.7.7",
+    "dayjs": "^1.11.13"
+  }
+}
